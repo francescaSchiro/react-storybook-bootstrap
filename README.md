@@ -1,4 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Followed [this setup](https://react-bootstrap.netlify.com/components/alerts/)
+
+## STEPS
+- `yarn add react-bootstrap bootstrap` and in *src/index.js* `import 'boostrap/dist/css/boostrap.min.css';` 
+- `yarn add node-sass` and create _src/custom.scss_ to import in _index.js_ for any needed bootstrap overrides.
+- 
 
 ## Available Scripts
 

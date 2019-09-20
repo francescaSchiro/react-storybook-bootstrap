@@ -3,7 +3,8 @@ import Alert from 'react-bootstrap/Alert';
 
 function AlertBtstrp() {
     return(
-        <Alert variant='success' >
+        <Alert 
+            variant='success' >
             <Alert.Heading> This is a success Alert </Alert.Heading>
             <p> Aww yeah, you successfully read this important alert message. This example
             text is going to run a bit longer so that you can see how spacing within an

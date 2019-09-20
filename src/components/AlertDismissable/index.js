@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Alert from 'react-bootstrap/Alert';
 import Button from 'react-bootstrap/Button';
 import CloseButton from 'react-bootstrap/CloseButton';
-import Fade from 'react-bootstrap/Fade';
 
 function AlertDismissable() {
     const [show, setShow] = useState(false);
@@ -13,9 +12,7 @@ function AlertDismissable() {
     
     if(show) {
         return (
-            <Fade  >
                 <Alert  
-                    sm={12} md={1} 
                     variant='danger' 
                     show={show}       
                 >
@@ -30,7 +27,6 @@ function AlertDismissable() {
                     Cras mattis consectetur purus sit amet fermentum.
                     </p>
                 </Alert>
-            </Fade>
         )
     } else {
         return (

@@ -7,6 +7,7 @@ import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Alert from './components/Alert';
 import AlertDismissable from './components/AlertDismissable';
+import Modal from './components/Modal';
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
     <Container fluid={true}>
       <Row>
         <Col></Col>
-        <Col sm={12} lg='auto'>
+        <Col lg= {6} sm={12}>
           <Alert/>
         </Col>
         <Col></Col>
@@ -27,6 +28,11 @@ function App() {
       <Row>
         <Col>
           <AlertDismissable/>
+        </Col>
+      </Row>
+      <Row>
+        <Col>
+          <Modal/>
         </Col>
       </Row>
     </Container>    
